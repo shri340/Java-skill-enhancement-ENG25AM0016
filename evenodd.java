@@ -1,13 +1,13 @@
 import java.util.*;
 class EvenOdd {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = sc.nextInt();
 
         if (number % 2 == 0) {
-            System.out.println(number + " is even.");
+            System.out.println("The number is even.");
         } else {
-            System.out.println(number + " is odd.");
+            System.out.println( "The number is odd.");
         }
     
