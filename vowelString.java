@@ -1,21 +1,18 @@
 import java.util.*;
-    public class vowelString {
+public class vl {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter a string: ");
-        String str = sc.nextLine();
-
-        int count = 0;
-        String vowels = "aeiouAEIOU";
-
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if (vowels.indexOf(ch) != -1) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        int count=0;
+        String s=sc.nextLine();   
+        for(int i=0;i<s.length();i++)
+        {
+            char ch=s.charAt(i);
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+            {
                 count++;
             }
         }
-
-        System.out.println("Number of vowels: " + count);
-   sc.close(); }   
+        System.out.println("Number of vowels in the string: " + count);
+   sc.close(); }
 }
