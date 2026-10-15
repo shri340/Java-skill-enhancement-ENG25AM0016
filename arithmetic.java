@@ -15,6 +15,7 @@ public class arithmetic {
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
+        
         System.out.println("Quotient: " + quotient);
     sc.close(); }
 
